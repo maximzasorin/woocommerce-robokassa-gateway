@@ -124,7 +124,7 @@ msgid "Оплатить"
 msgstr ""
 
 #: wc-robokassa.php:257
-msgid "Отказаться от оплаты & вернуться в корзину"
+msgid "Вернуться в корзину"
 msgstr ""
 
 #: wc-robokassa.php:281

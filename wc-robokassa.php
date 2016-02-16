@@ -267,7 +267,7 @@ class WC_ROBOKASSA extends WC_Payment_Gateway{
 		 return
 			'<form action="'.esc_url($action_adr).'" method="POST" id="robokassa_payment_form">'."\n".
 			implode("\n", $args_array).
-			'<input type="submit" class="button alt" id="submit_robokassa_payment_form" value="'.__('Оплатить', 'robokassa-payment-gateway-saphali').'" /> <a class="button cancel" href="'.$order->get_cancel_order_url().'">'.__('Отказаться от оплаты & вернуться в корзину', 'robokassa-payment-gateway-saphali').'</a>'."\n".
+			'<input type="submit" class="button alt" id="submit_robokassa_payment_form" value="'.__('Оплатить', 'robokassa-payment-gateway-saphali').'" /> <a class="button cancel" href="'.$order->get_cancel_order_url().'">'.__('Вернуться в корзину', 'robokassa-payment-gateway-saphali').'</a>'."\n".
 			'</form>'; 
 	}
 	
